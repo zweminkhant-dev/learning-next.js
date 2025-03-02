@@ -1,7 +1,7 @@
-import { createContext, PropsWithChildren, useContext } from 'react'
 import { Optional } from '@/types'
-import { ThemeContextType } from './types'
+import { createContext, PropsWithChildren, useContext } from 'react'
 import { useContextValue } from './hooks'
+import { ThemeContextType } from './types'
 
 const ThemeContext = createContext<Optional<ThemeContextType>>(null)
 
